@@ -16,6 +16,8 @@ class PomodoroApp(object):
         }
 
         # THESE ARE POMODORO APP INSTANCE VARIABLES
+        # pull request for github
+        # test test test 123
 
         self.app = rumps.App(self.config["app_name"]) # sets name as Pomodoro
         self.timer = rumps.Timer(self.on_tick, 1) # every 1 second, it calls the method, on_tick
